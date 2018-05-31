@@ -10,10 +10,29 @@
 <body>
     <!-- 1.ナビゲーションバーの設定 -->
     <nav class="navbar navbar-default navbar-inverse">
+        <div class="container">
+            <!-- 2.ヘッダ情報 -->
+            <div class="navbar-header">
+                <!--
+                <a href="#" class="navbar-brand"><img src="./prodelight_logo.png" style="height: 20px;"></a>
+                -->
+            </div>
+            <!-- 3.リストの配置 -->
+            <ul  class="nav navbar-nav">
+                <!--
+                <li class="active"><a href="#">アカウント追加</a></li>
+                <li><a href="./search.php">閲覧・検索</a></li>
+                -->
+            </ul>
+            <!-- 4.ボタン -->
+            <!--
+            <button type="button" class="btn btn-default navbar-btn">
+            <span class="glyphicon glyphicon-envelope"></span>
+            </button>
+            -->
+        </div>
     </nav>
-
-
-<!-- 
+<!-- ResultButton
 <form action="./result" method="post" enctype="multipart/form-data">
     <div class="form-group">
     <label class="control-label" for="upload">Select a file:
@@ -24,43 +43,26 @@
   </div>
 </form>
  -->
-
-<div class="container-fluid">
-
-<h1>スケジュール自動設定ツール</h1>
+<h2>スケジュール自動設定ツール</h2>
 </br>
 </br>
-
-<!-- SQL実行ボタン -->
+ <!-- SQL実行ボタン -->
 <form action="./sql" method="post" enctype="multipart/form-data">
     <div class="form-group">
-    <label class="control-label" for="upload"><h4>キミネット様から提供されたスケジュールExcelファイルをアップロードしてスケジュールを設定します。</h4>
-    </br>
+    <label class="control-label" for="upload"><h4>キミネット様から提供されたスケジュールExcelファイルをアップロードしてください。</h4>
     <input type="file" name="upload">
   </div>
+  </br>
+  </br>
   <div class="form-group">
     <input type="submit" value="Excelファイルから設定を実行" class="btn btn-primary">
   </div>
 </form>
-</br>
-</br>
-</br>
-
-
-<!-- 先月削除 -->
-<form action="./prev_month" method="post" enctype="multipart/form-data">
-  <label class="control-label" for="upload"><h4>先月分のスケジュール設定を削除します。</h4>
-  <input type="submit" value="先月分削除" class="btn btn-primary">
-</form>
-
-
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
-</div>
 
 </body>
 </html>
