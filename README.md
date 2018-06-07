@@ -4,7 +4,7 @@
 TimeGroupへの設定を自動で行います。（リロードは手動）
 
 # 使い方
-## スケジュール設定をexcelから自動設定する
+### スケジュール設定をexcelから自動設定する
 ①  
 http://adm15.qloog.ne.jp/autoset_kiminet/upload  
 上記のURLにアクセス  
@@ -29,7 +29,7 @@ http://adm15.qloog.ne.jp/autoset_kiminet/upload
   つまり、現在が5月で、4月分のスケジュールexcelファイルを読み込ませても  
   各日の設定はexcelファイルの内容を利用して、月は6月で設定します。
 
-## 先月分のスケジュール設定を削除する
+### 先月分のスケジュール設定を削除する
 ①  
 http://adm15.qloog.ne.jp/autoset_kiminet/upload  
 上記のURLにアクセス  
