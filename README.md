@@ -1,16 +1,16 @@
 # 概要
-キミネット様で月毎スケジュール設定変更依頼を半自動化するツールです。  
-キミネット様から頂くスケジュールの記載されたexcelファイルを読み込ませることで  
+XXXXXXで月毎スケジュール設定変更依頼を半自動化するツールです。  
+XXXXXXから頂くスケジュールの記載されたexcelファイルを読み込ませることで  
 TimeGroupへの設定を自動で行います。（リロードは手動）
 
 # 使い方
 #### スケジュール設定をexcelから自動設定する
 ①  
-http://adm15.qloog.ne.jp/autoset_kiminet/upload  
+http://XXXXXX.ne.jp/autoset_kiminet/upload  
 上記のURLにアクセス  
 
 ②  
-「ファイルを選択」をクリックしてキミネット様から頂いたexcelファイルを選択する  
+「ファイルを選択」をクリックしてXXXXXXから頂いたexcelファイルを選択する  
 
 ③  
 「Excelファイルから設定を実行」をクリックする  
@@ -19,8 +19,8 @@ http://adm15.qloog.ne.jp/autoset_kiminet/upload
 実行したクエリが表示されることを確認  
 
 ⑤  
-202.78.218.162
-キミネット様PBXのGUIにログインして空リロード実施  
+XXXXXX
+XXXXXXPBXのGUIにログインして空リロード実施  
 
 ※  
 - 「スケジュール設定をexcelから自動設定する」機能はexcelの列を固定で判断しているため  
@@ -31,7 +31,7 @@ http://adm15.qloog.ne.jp/autoset_kiminet/upload
 
 #### 先月分のスケジュール設定を削除する
 ①  
-http://adm15.qloog.ne.jp/autoset_kiminet/upload  
+http://XXXXXX.ne.jp/autoset_kiminet/upload  
 上記のURLにアクセス  
 
 ②  
@@ -42,14 +42,14 @@ http://adm15.qloog.ne.jp/autoset_kiminet/upload
 
 ④  
 202.78.218.162
-キミネット様PBXのGUIにログインして空リロード実施  
+XXXXXXPBXのGUIにログインして空リロード実施  
 
 # 仕様
 言語 : Python3.6.4
 Python仮想環境 : pyenv + pyenv-virtualenv
 Pythonフレームワーク : Bottle
 CSSフレームワーク : BootStrap
-動作ホスト : adm15.qloog.ne.jp
+動作ホスト : XXXXXXX.ne.jp
 
 # 各ファイル説明
 - adapter.wsgi  
@@ -64,7 +64,7 @@ CSSフレームワーク : BootStrap
 - index.html  
   MVCモデルで言う所の「ビュー」
   以下のURLのアクセス先のHTML描画を行う
-  http://adm15.qloog.ne.jp/autoset_kiminet/upload
+  http://XXXXXX.ne.jp/autoset_kiminet/upload
 
 - mkexecsql.py  
   excelファイルからPBXに設定を行う
